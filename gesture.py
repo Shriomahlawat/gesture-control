@@ -8,7 +8,7 @@ from mediapipe.tasks.python import vision
 
 # Load model
 base_options = python.BaseOptions(
-    model_asset_path=r"C:\Users\satya\Desktop\hand_landmarker.task"
+    model_asset_path=r"hand_landmarker.task"
 )
 
 options = vision.HandLandmarkerOptions(
